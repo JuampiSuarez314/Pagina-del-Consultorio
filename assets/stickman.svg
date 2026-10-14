@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Stickman trabajando en una libreta</title>
+  <desc id="desc">Dibujo a mano de una persona morada sentada en un sillón marrón mientras escribe.</desc>
+  <defs>
+    <filter id="pink-shadow" x="40" y="28" width="360" height="390" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+  <!-- Sillón de líneas sueltas en marrón -->
+  <g stroke="#7A4A2B" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M91 195c1-37 19-64 47-78 23-12 54-15 80-10m10 1c37-2 67 10 86 34 15 19 21 42 20 70" stroke-width="8"/>
+    <path d="M95 199c2-32 20-57 45-70m179 12c13 17 18 38 17 62" stroke-width="3" opacity=".75"/>
+    <path d="M84 183c-17 3-27 17-27 38v112c0 13 9 23 21 23h22V219c0-20-5-33-16-36Zm272 0c17 3 27 17 27 38v112c0 13-9 23-21 23h-22V219c0-20 5-33 16-36Z" stroke-width="8"/>
+    <path d="M65 223v100m310-100v100M79 358h284" stroke-width="3" opacity=".75"/>
+    <path d="M100 304c57 9 189 9 263 0v48c0 10-8 18-18 18H118c-10 0-18-8-18-18v-48Z" fill="#98633F" stroke-width="8"/>
+    <path d="M112 314c54 8 172 8 238 0m-230 56v29m223-29v29m-235 0c0 8 6 14 14 14h14m205-14c0 8-6 14-14 14h-14" stroke-width="4"/>
+    <path d="M123 267c31 5 65 6 99 5m39 0c28 0 55-2 78-5" stroke-width="3" opacity=".65"/>
+  </g>
+  <!-- Sombra fucsia apenas desplazada bajo el trazo principal -->
+  <g transform="translate(3 3)" stroke="#FF00FF" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" opacity=".75" filter="url(#pink-shadow)">
+    <circle cx="218" cy="81" r="39"/>
+    <path d="m218 122-4 34m-2-1c-27 8-48 27-61 57m63-57c29 2 50 19 65 41m-64-21-54 25-42 39m123-40 32 8 20-23m-114 15 58 25-2 47m-58-47-7 50-34 48 43 23m58-74 4 55 39 32 40-6"/>
+  </g>
+  <!-- Stickman morado: el trazo ligeramente irregular conserva el gesto de boceto -->
+  <g stroke="#7B2FF7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="218" cy="81" r="39"/>
+    <path d="M190 54c12-13 35-19 53-11m-59 22c-4 13 0 29 8 39m55-39c5 14 1 28-8 39" stroke-width="3" opacity=".7"/>
+    <path d="m218 122-4 34m-2-1c-27 8-48 27-61 57m63-57c29 2 50 19 65 41"/>
+    <path d="m214 155-54 25-42 39m-1 0-12 24m146-44 32 8 20-23"/>
+    <!-- Libreta inclinada en la falda -->
+    <path d="m196 190 75 2 2 78-77-2v-78Z" fill="#F2EAD3" stroke="#343434" stroke-width="4"/>
+    <path d="m208 204 49 1m-48 11 51 1m-51 11 31 1m-37-38v72" stroke="#9AA8C7" stroke-width="3"/>
+    <!-- Mano y lápiz -->
+    <path d="m270 204 18-23 8 7-18 24m-8-4-8-4m29-23 5-9 7 6-5 9" stroke="#343434" stroke-width="4"/>
+    <path d="m214 156 58 27-2 34m-58-26-7 47-34 48 43 23m58-74 4 55 39 32 40-6"/>
+    <path d="m177 309 36 23 4 26m70-33 39 32 40-6"/>
+  </g>
+  <!-- Pequeños gestos de lápiz alrededor del dibujo -->
+  <g stroke="#7B2FF7" stroke-width="4" stroke-linecap="round" opacity=".7">
+    <path d="m127 155-9 8m23-18-4 10m184 19 8 8m-2-23 9 6"/>
+  </g>
+</svg>
