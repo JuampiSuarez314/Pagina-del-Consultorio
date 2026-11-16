@@ -10,7 +10,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
 </head>
 <body>
   <!-- Header -->
@@ -101,6 +100,31 @@
     </section>
     <!-- Sección 2: Trabajos-->
     <section class="trabajos">
+      <div class="trabajos__encabezado">
+        <!--
+        _____NOTA_____
+        Pongo proyectos más solicitados por ahora pero dijimos de revisar esta sección
+        Lo hago por ahora así después vemos
+        -->
+        <h2 class="trabajos__titulo">Proyectos más solicitados</h2>
+        <!--
+        CAMBIAR cuando definamos bien que pasa con esta sección
+        -->
+        <p class="trabajos__subtitulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, amet. Assumenda eum repellat, recusandae tempora modi aliquam excepturi suscipit. Iste repudiandae dicta illo perspiciatis molestias voluptatibus reprehenderit facilis et? Rem!</p>
+      </div>
+      <div class="trabajos__contenido">     
+        <ul class="trabajos__proyectos" id="lista-proyectos"> 
+        </ul>
+        <template id="plantilla-trabajo">
+          <li class="trabajos__proyecto">
+            <img src="" data-imagen="" class="trabajos__proyecto-portada" alt="">
+            <span data-etiqueta="" class="trabajos__proyecto-etiqueta"></span>
+            <h3 data-titulo="" class="trabajos__proyecto-titulo"></h3>
+            <p data-desc="" class="trabajos__proyecto-descripcion"></p>
+            <a data-ejemplo="" href="" class="trabajos__proyecto-enlace">Ver ejemplo</a>
+          </li>
+        </template>
+      </div>
     </section>
     <!-- Sección 3: Nosotros-->
     <section class="nosotros">
@@ -108,6 +132,7 @@
   </main>
   <footer>
   </footer>
+  <script src="script.js" defer></script>
 </body>
 </html>
 
